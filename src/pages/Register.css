@@ -1,0 +1,162 @@
+span[name='tele'], span[name='login']{
+    color: #6599E8;
+    transition: .4s;
+}
+span[name='doc']{
+    color: #F03E85;
+}
+.login-span{
+    transition: .4s;
+}
+
+/* Header */
+.register-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.register-header p{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* Main */
+.register-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.register-main>div{
+    width: 50%;
+}
+.register-main>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register-main>div>div p{
+    margin-top: 12px;
+}
+.register-main h5{
+    font-weight: 600;
+}
+.register-main form{
+    width: 100%;
+}
+.register-main label{
+    color: #5480C1;
+}
+.register-main input[type="text"], .register-main input[type="email"], .register-main input[type="password"]{
+    height: 32px;
+    font-size: 1rem;
+    border: transparent;
+}
+.register-main button{
+    width: 100%;
+    height: 44px;
+    background: #6599E8;
+    border: transparent;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 36px;
+    transition: .4s;
+}
+.register-main a{
+    text-decoration: none;
+}
+.register-form-box{
+    margin-top: 16px;
+}
+.input-form{
+    width: 95%;
+}
+.input-form-nama{
+    width: 90%;
+}
+#nama-depan-belakang{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#nama-depan-belakang div{
+    width: 47%;
+}
+#nama-depan-belakang div[name="for-nama-depan"], #nama-depan-belakang div[name="for-nama-belakang"]{
+    width: 100%;
+}
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    border: solid thin #6599E8;
+    border-radius: 5px;
+}
+
+/* Hover */
+.register-main button:hover{
+    color: #6599E8;
+    background-color: #65DBE8;
+}
+span[name='login']:hover{
+    color: #fff;
+}
+.login-span:hover{
+    background-color: #6599E8;
+}
+
+/* Responsive */
+@media screen and (max-width: 576px){
+    .register-header p{
+        font-size: 1.25rem;
+    }
+    .register-main>div{
+        width: 70%;
+    }
+    .register-main h5{
+        font-size: 0.9rem;
+    }
+    .register-main label{
+        font-size: 0.7rem;
+    }
+    .register-main input[type="text"], .register-main input[type="email"], .register-main input[type="password"]{
+        height: 28px;
+        font-size: 0.7rem;
+    }
+    .register-main>div>div p{
+        font-size: 0.7rem;
+    }
+    .register-main button{
+        height: 36px;
+        margin-top: 24px;
+    }
+    #nama-depan-belakang div{
+        width: 100%;
+    }
+    #nama-belakang{
+        margin-top: 8px;
+    }
+    .register-form-box{
+        margin-top: 8px;
+    }
+    .register-form-box span{
+        font-size: 0.7rem;
+    }
+    .input-form-nama{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 320px){
+    .register-header p{
+        font-size: 1rem;
+    }
+    .register-main h5{
+        font-size: 0.8rem;
+    }
+    .register-main>div>div p{
+        font-size: 0.6rem;
+    }
+    .register-form-box span{
+        font-size: 0.6rem;
+    }
+}

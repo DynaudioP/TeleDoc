@@ -1,0 +1,219 @@
+.listdoc-title{
+    font-size: 2rem;
+}
+.listdoc-sub-title{
+    font-size: 1.5rem;
+}
+.doc-photo{
+    width: 105px;
+}
+.listdoc-name{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.listdoc-icon-1, .search-icon{
+    width: 20px;
+    height: 20px;
+}
+.listdoc-icon-2{
+    width: 24px;
+    height: 24px;
+}
+.listdoc-detail-1{
+    font-size: 0.8rem;
+}
+.listdoc-detail-2{
+    font-size: 0.8rem;
+}
+.listdoc-icon-1, .listdoc-detail-1{
+    color: #979696;
+}
+.search-input-wrapper{
+    border: solid thin #979696;
+    border-start-end-radius: 4px;
+    border-end-end-radius: 4px;
+    height: 40px;
+}
+.search-input{
+    border: none;
+}
+.btn-2{
+    font-size: 1rem;
+}
+.btn-3{
+    background-color: #987AC1;
+    color: #fff;
+    border: transparent;
+    border-start-start-radius: 4px;
+    border-end-start-radius: 4px;
+    font-weight: 800;
+    font-size: 1.25rem;
+    transition: .4s;
+}
+
+/* Hover */
+.btn-3:hover{
+    color: #6599E8;
+    background-color: #65DBE8;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .doc-photo{
+        width: 85px;
+    }
+    .listdoc-name{
+        font-size: 0.75rem;
+    }
+    .listdoc-detail-1{
+        font-size: 0.55rem;
+    }
+    .listdoc-detail-2{
+        font-size: 0.55rem;
+    }
+    .listdoc-icon-1{
+        width: 16px;
+        height: 16px;
+    }
+    .listdoc-icon-2{
+        width: 20px;
+        height: 20px;
+    }
+    .btn-2{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .btn-3{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .doc-photo{
+        width: 135px;
+    }
+    .listdoc-name{
+        font-size: 1.3rem;
+    }
+    .listdoc-detail-1{
+        font-size: 1.1rem;
+    }
+    .listdoc-detail-2{
+        font-size: 1.1rem;
+    }
+    .listdoc-icon-1{
+        width: 24px;
+        height: 24px;
+    }
+    .listdoc-icon-2{
+        width: 28px;
+        height: 28px;
+    }
+    .btn-2{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 767px){
+    .doc-photo{
+        width: 95px;
+    }
+    .listdoc-name{
+        font-size: 0.9rem;
+    }
+    .listdoc-detail-1{
+        font-size: 0.8rem;
+    }
+    .listdoc-detail-2{
+        font-size: 0.8rem;
+    }
+    .listdoc-icon-1{
+        width: 16px;
+        height: 16px;
+    }
+    .listdoc-icon-2{
+        width: 20px;
+        height: 20px;
+    }
+    .search-icon{
+        width: 16px;
+        height: 16px;
+    }
+    .search-input-wrapper{
+        border-radius: 4px;
+    }
+    .btn-2{
+        font-size: 0.9rem;
+    }
+    .btn-3{
+        height: 40px;
+        border-radius: 4px;
+        margin: 8px 0;
+    }
+}
+@media screen and (max-width: 575px){
+    .doc-photo{
+        width: 125px;
+    }
+    .listdoc-title{
+        font-size: 1.25rem;
+    }
+    .listdoc-sub-title{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .doc-photo{
+        width: 115px;
+    }
+    .listdoc-name{
+        font-size: 0.8rem;
+    }
+    .listdoc-detail-1{
+        font-size: 0.7rem;
+    }
+    .listdoc-detail-2{
+        font-size: 0.7rem;
+    }
+    .listdoc-icon-1{
+        width: 16px;
+        height: 16px;
+    }
+    .listdoc-icon-2{
+        width: 20px;
+        height: 20px;
+    }
+    .btn-2{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .doc-photo{
+        width: 90px;
+    }
+    .listdoc-title{
+        font-size: 1rem;
+    }
+    .listdoc-sub-title{
+        font-size: 0.75rem;
+    }
+    .listdoc-name{
+        font-size: 0.65rem;
+    }
+    .listdoc-detail-1{
+        font-size: 0.5rem;
+    }
+    .listdoc-detail-2{
+        font-size: 0.5rem;
+    }
+    .listdoc-icon-1{
+        width: 12px;
+        height: 12px;
+    }
+    .listdoc-icon-2{
+        width: 16px;
+        height: 16px;
+    }
+    .btn-2{
+        font-size: 0.6rem;
+    }
+}

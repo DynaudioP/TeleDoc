@@ -1,0 +1,133 @@
+
+
+
+.login-section{
+    height: 87vh;
+    background-color: #FBFBFB;
+}
+
+
+
+#login-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    max-width: 600px;
+    
+    margin: auto;
+}
+
+
+#login-box{
+    background-color: #ffff;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(101, 153, 232, .5);
+    height: auto;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0px .5px 1px .5px rgba(0,0,0, .1);
+}
+
+#login-box h5{
+    text-align: center;
+    line-height: 1.1em;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.form-box{
+    margin-top: 2em;
+}
+
+.form-box p{
+    color: #5480C1;
+    font-size: 14px;
+    line-height: .10em;
+}
+
+.form-box span{
+    color: #F03E85;
+}
+
+.form-input{
+    padding-left: 5px;
+    width: 100%;
+    height: 2em;
+    border-radius: 4px;
+    border: 1px solid rgba(101, 153, 232, .3);   
+}
+
+.one-line{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+#wrap-ingat{
+    display: flex;
+    text-align: center;
+    margin-left: 5px;
+}
+
+input#ingat{
+    width: 20px;
+    height: 20px;
+    background-color: #6599E8;
+}
+
+
+#wrap-ingat p{
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.press{
+    font-size: 14px;
+    color: #5480C1;
+    text-decoration: none;
+}
+
+.log{
+    margin-top: 15px;
+    background-color: #6599E8;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.log-button{
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    color: #ffff;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    transition: .4s;
+}
+
+#login-box h6{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Hover */
+.log:hover{
+    background-color: #65DBE8;
+}
+.log-button:hover{
+    color: #6599E8;
+}

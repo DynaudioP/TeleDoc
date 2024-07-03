@@ -1,0 +1,338 @@
+/* Header */
+.homepage-header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url(/src/assets/Ellipse-15.svg);
+    background-repeat: no-repeat;
+    background-size: 50vw 100vh;
+    background-position: -10px 50px;
+    margin-top: 120px;
+}
+.homepage-header img{
+    width: inherit;
+    height: 70vh;
+}
+#header-left, #header-right{
+    display: flex;
+    width: 45%;
+}
+#header-left{
+    justify-content: center;
+}
+#header-right{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+}
+#header-right div{
+    margin: 12px 0;
+}
+#header-right p[name="find-doctor"]{
+    color: #6599E8;
+    font-size: 1rem;
+}
+#header-right p[name="recommendation"]{
+    font-size: 1.25rem;
+}
+.homepage-header div a{
+    text-decoration: none;
+    background-color: #6599E8;
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: 0.4s;
+}
+
+/* About Us */
+#about-us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+    background-image: url(/src/assets/Ellipse-16.svg);
+    background-repeat: no-repeat;
+    background-size: 1017px 536px;
+    background-position: 500px 350px;
+}
+#about-us>div{
+    width: 45%;
+    display: flex;
+}
+#about-us-left{
+    flex-direction: column;
+}
+#about-us-right{
+    justify-content: center;
+    align-items: flex-end;
+}
+#about-us div[name="about-us-content"]{
+    margin-top: 32px;
+}
+#about-us img{
+    width: 600px;
+    height: 600px;
+}
+#about-us p{
+    font-size: 1.75rem;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+#footer-no-1, #footer-no-2{
+    width: 45%;
+}
+#footer-no-1 table{
+    margin-top: 52px;
+}
+.contact-i{
+    padding: 12px 0;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+}
+.contact-p{
+    padding: 0 24px;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+}
+#footer-no-2 form{
+    margin-top: 52px;
+    width: 100%;
+    padding: 4px 0;
+}
+#footer-no-2 form label{
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+}
+#footer-no-2 form input{
+    width: 95%;
+    height: 32px;
+    border: transparent;
+    font-size: 1rem;
+}
+#footer-no-2 form textarea{
+    width: 95%;
+    height: 200px;
+    border: transparent;
+    font-size: 1rem;
+}
+#footer-no-2 form button{
+    width: 139px;
+    height: 37px;
+    background-color: #6599E8;
+    color: #fff;
+    font-size: 1.25rem;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    float: right;
+    transition: .4s;
+}
+#footer-no-2 form label, #footer-no-2 form input, #footer-no-2 form textarea, #footer-no-2 form button{
+    margin: 8px 0;
+}
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    border: solid thin;
+    border-radius: 5px;
+}
+
+/* Copyright */
+#copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin: 32px 60px 0 60px;
+    border-top: solid thin;
+    letter-spacing: 0.03em;
+}
+
+/* Hover */
+.homepage-header div a:hover, #footer-no-2 form button:hover{
+    color: #6599E8;
+}
+.homepage-header div a:hover, #footer-no-2 form button:hover{
+    background-color: #65DBE8;
+}
+
+/* Responsive */
+@media screen and (max-width: 2560px) {
+    #about-us{
+        background-position: 1100px 300px;
+        background-size: 1517px 1036px;
+    }
+    #about-us img{
+        width: 800px;
+        height: 800px;
+    }
+}
+@media screen and (max-width: 1612px) {
+    #about-us{
+        background-size: 1017px 536px;
+        background-position: 500px 250px;
+    }
+    #about-us img{
+        width: 500px;
+        height: 500px;
+    }
+    #footer-no-2 form{
+        margin-top: 24px;
+    }
+}
+@media screen and (max-width: 926px) {
+    #footer-no-1, #footer-no-2{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .homepage-header{
+        background-size: 50vw 100vh;
+        background-position: 0px 30px;
+    }
+    .homepage-header img{
+        height: 65vh;
+    }
+    #header-right h1{
+        font-size: 2rem;
+    }
+    #about-us{
+        background-position: 300px 250px;
+    }
+    #about-us p{
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width: 992px){
+    .homepage-header{
+        align-items: center;
+        flex-direction: column-reverse;
+        background-size: 0vw 0vh;
+        background-position: 0px 0px;
+    }
+    #header-left, #header-right{
+        width: 90%;
+    }
+    .homepage-header img{
+        height: 320px;
+    }
+    #header-right{
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px){
+    .homepage-header{
+        background-size: 100vw 90vh;
+        background-position: -100px 240px;
+    }
+    .homepage-header img{
+        height: 280px;
+    }
+    #header-right h1{
+        font-size: 2.25rem;
+    }
+    #header-right p[name="find-doctor"]{
+        font-size: 0.75rem;
+    }
+    #header-right p[name="recommendation"]{
+        font-size: 1rem;
+    }
+    #about-us{
+        background-position: 50px 350px;
+    }
+    #about-us>div{
+        width: 90%;
+    }
+    #about-us p{
+        text-align: justify;
+    }
+    #about-us img{
+        width: 400px;
+        height: 400px;
+    }
+    #footer-no-2{
+        margin-top: 52px;
+    }
+}
+@media screen and (max-width: 576px){
+    .homepage-header{
+        background-size: 90vw 90vh;
+        background-position: 0px 230px;
+    }
+    .homepage-header img{
+        height: 240px;
+    }
+    .homepage-header div a{
+        font-size: 0.75rem;
+        padding: 8px 24px;
+    }
+    #header-right h1{
+        font-size: 1.5rem;
+    }
+    #header-right p[name="find-doctor"]{
+        font-size: 0.75rem;
+    }
+    #header-right p[name="recommendation"]{
+        font-size: 0.75rem;
+    }
+    #copyright{
+        font-size: 0.5rem;
+    }
+    #about-us{
+        background-position: -30px 250px;
+    }
+    #about-us p{
+        font-size: 1rem;
+    }
+    #about-us img{
+        width: 300px;
+        height: 300px;
+    }
+    footer i{
+        font-size: 1.5rem;
+    }
+    .contact-p{
+        font-size: 0.9rem;
+    }
+    #footer-no-2 form button{
+        width: 109px;
+        height: 37px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 320px){
+    .homepage-header{
+        background-size: 95vw 90vh;
+        background-position: 0px 200px;
+    }
+    .homepage-header img{
+        height: 200px;
+    }
+    #header-right h1{
+        font-size: 1.25rem;
+    }
+    #about-us{
+        background-position: -50px 180px;
+    }
+    #about-us p{
+        font-size: 0.75rem;
+    }
+    #about-us img{
+        width: 240px;
+        height: 240px;
+    }
+}

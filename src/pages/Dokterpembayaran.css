@@ -1,0 +1,217 @@
+.wrap-dokter{
+    border: #6599E8;
+    margin: 2em;
+    border: solid thin #9a9a9a;
+    border-radius: 10px;
+    width:  80%;
+}
+
+.wrap-payment{
+    margin-top: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 4em;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+
+
+.left-pay{
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
+    margin-bottom: 4em;
+
+}
+.pay-price{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+.pay-price p{
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.pay-price p,h5{
+    margin-bottom: 0px;
+}
+.pay-price h5{
+    font-weight: 700;
+}
+
+.pay-price p{
+}
+
+.pay-detail p:first-child{
+    font-size: 1.2em;
+    
+}
+.pay-detail p:last-child{
+}
+
+.pay-detail p{
+    margin-bottom: 0.5em;
+}
+
+.sch-price{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sch-price p:first-child{
+    font-size: 1em;
+}
+
+.right-pay{
+
+}
+
+.metode-box{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding-bottom: 0.5em;
+}
+
+.label-box{
+}
+
+.label-box h4{
+    padding-right: 16em;
+    padding-top: 0.8em;
+    padding-left: 0.9em;
+    padding-bottom: 0.8em;
+    background-color: #6599E8;
+    font-size: 1.2em;
+    color: #ffff;
+    font-weight: 500;
+    
+}
+
+.label-pay{
+    margin-left: 1em;
+    font-size: 0.7em;
+    margin-bottom: 2.2em;
+}
+
+.m-payment{
+    margin-bottom: 2em;
+    padding-left: 1em;
+}
+.m-payment p{
+    font-size: 0.95em;
+    margin-bottom: 0.1em;
+}
+.m-payment input{
+    width: 95%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+.req{
+    color: #FC100D;
+}
+
+.terms{
+    padding-right: 2em;
+    margin-right: 0.2em;
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0.5em;
+}
+.hak{
+    margin-left: 2.2em;
+    font-size: 0.9em;
+}
+
+.hak p:first-child{
+    margin-bottom: 0em;
+}
+
+
+
+.terms p{
+    font-size: 0.9em;
+    margin-bottom: 0em;
+    margin-left: 0.5em
+}
+
+.agree-terms{
+    width: 0.85em;
+    height: 0.85em;
+    margin-right: 0.2em;
+}
+
+.payment{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.btn-pay{
+    width: 95%;
+    margin-left: 0.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 3px;
+    background-color: #4BB543;
+    color: #ffff;
+    border-color: transparent;
+}
+
+@media screen and (max-width: 1612px) {
+
+}
+@media screen and (max-width: 1025px) {
+    .left-pay{
+        width: 60vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .left-pay p{
+        font-size: ;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .label-box h4{
+        padding-right: 11em;   
+    }
+    .pay-price p,h5{
+        font-size: 1em;
+    }
+    .pay-detail p:first-child{
+        font-size: 0.9em;
+    }
+
+    .pay-detail p:last-child{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .label-box h4{
+        padding-right: 8em;
+        
+    }
+    .metode-box p{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .label-box h4{
+        padding-right: 7em;
+        
+    }
+}

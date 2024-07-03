@@ -1,0 +1,149 @@
+/* Admin */
+.btn-wrapper{
+    padding: 4px 0;
+    transition: .4s;
+}
+.btn-4{
+    background: transparent;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+.btn-wrapper, .btn-5, .btn-7{
+    background-color: #6599E8; 
+}
+.btn-8{
+    font-size: 2rem;
+}
+.btn-6, .btn-8{
+    background-color: #F03E85;
+}
+.btn-5, .btn-6{
+    font-size: 1rem;
+}
+.btn-5, .btn-6, .btn-7, .btn-8{
+    padding: 4px 0;
+}
+.btn-4, .btn-5, .btn-6, .btn-7, .btn-8{
+    border: none;
+    color: #fff;
+    transition: .4s;
+}
+.btn-wrapper, .btn-5, .btn-6, .btn-7, .btn-8{
+    border-radius: 8px;
+}
+
+/* Tambah dan Update Form*/
+.tambah-dokter-form{
+    width: 95%;
+    border: none;
+    padding: 4px 0;
+}
+.btn-7{
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 4px 0 ;
+}
+.tambah-form-span{
+    color: #6599E8;
+    cursor: pointer;
+    transition: .4s;
+}
+
+/* Hover */
+.btn-wrapper:hover, .btn-5:hover, .btn-6:hover, .btn-7:hover, .btn-8:hover{
+    background-color: #65DBE8;
+}
+.btn-4:hover, .btn-5:hover, .btn-6:hover, .btn-7:hover, .btn-8:hover{
+    color: #6599E8;
+}
+.tambah-form-span:hover{
+    color: #fff;
+    background-color: #6599E8;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .btn-4{
+        font-size: 1.2rem;
+    }
+    .btn-5, .btn-6{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .btn-4{
+        font-size: 1.1rem;
+    }
+    .btn-5, .btn-6{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .btn-wrapper{
+        padding: 8px 0;
+        margin-top: 16px;
+    }
+    .btn-4{
+        font-size: 1.5rem;
+    }
+    .btn-5, .btn-6{
+        font-size: 0.8rem;
+    }
+    .btn-8{
+        font-size: 1.75rem;
+    }
+    .tambah-form-h1{
+        font-size: 1.75rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    .btn-wrapper{
+        padding: 4px 0;
+        margin-top: 16px;
+    }
+    .btn-4{
+        font-size: 1.2rem;
+    }
+    .tambah-form-h1{
+        font-size: 1.5rem;
+    }
+    .tambah-form-label{
+        font-size: 0.8rem;
+    }
+    .tambah-dokter-form{
+        width: 95%;
+        border: none;
+        font-size: 0.8rem;
+    }
+    .btn-7{
+        font-size: 1rem;
+        padding: 4px 0 ;
+    }
+    .tambah-form-p{
+        font-size: 0.8rem;
+    }
+    .btn-8{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .btn-wrapper{
+        padding: 6px 0;
+        margin-top: 16px;
+    }
+    .btn-4{
+        font-size: 1rem;
+    }
+    .tambah-form-h1{
+        font-size: 1.25rem;
+    }
+    .btn-8{
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .btn-4{
+        font-size: 0.9rem;
+    }
+}

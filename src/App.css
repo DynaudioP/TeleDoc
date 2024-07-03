@@ -1,0 +1,162 @@
+/* Nav */
+nav{
+  display: flex;
+  justify-content: center;
+  border-bottom: solid thin #E1E1E1;
+}
+.nav-content{
+  width: 45%;
+  align-self: center;
+}
+nav img{
+  width: 76px;
+  height: 90px;
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+.right label{
+  float: right;
+  cursor: pointer;
+}
+.right label i{
+  color: #F03E85;
+}
+.right div{
+  display: none;
+  background: transparent;
+  border: none;
+}
+nav ul{
+  float: right;
+  margin: auto 0;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+  transition: .4s;
+}
+.btn-login{
+  padding: 12px 32px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 800;
+  background-color: #6599E8;
+  transition: .4s;
+}
+nav ul li img{
+  width: 50px;
+  height: 50px;
+}
+nav ul li img, .container img{
+  margin-right: 8px;
+}
+nav span, .container span{
+  font-weight: 800;
+}
+nav span[name='tele']{
+  color: #6599E8;
+}
+nav span[name='doc']{
+  color: #F03E85;
+}
+nav label i{
+  font-size: 2rem;
+}
+.container{
+  display: none;
+}
+.container img{
+  width: 70px;
+  height: 70px;
+}
+div.row{
+  width: 101%;
+}
+.row a[href="/"]{
+  padding-right: 91%;
+  color: #000;
+}
+.nav-list{
+  padding-right: 85%;
+}
+.nav-icon{
+  width: 32px;
+  height: 32px;
+}
+
+/* Hover */
+a[href="/"]:hover, a[href="#about-us"]:hover, .btn-login:hover{
+  color: #6599E8;
+}
+.btn-login:hover{
+  background-color: #65DBE8;
+}
+
+#check-1{
+  display: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 1612px) {
+  #check-1:checked~.container{
+      display: none;
+  }
+}
+@media screen and (max-width: 926px) {
+  .right ul{
+      display: none;
+  }
+  .right div{
+      display: unset;
+  }
+  #check-1:checked~.container{
+      display: unset;
+  }
+  .btn-login{
+    padding: 12px 32vw;
+  }
+}
+@media screen and (max-width: 768px){
+  .nav-list{
+      padding-right: 83%;
+  }
+}
+@media screen and (max-width: 576px){
+  nav img{
+      width: 56px;
+      height: 70px;
+  }
+  nav span{
+      font-size: 1rem;
+  }
+  nav label i{
+      font-size: 1rem;
+  }
+  .nav-icon{
+      width: 24px;
+      height: 24px;
+  }
+  .container img{
+      width: 50px;
+      height: 50px;
+  }
+  .nav-list{
+      padding-right: 69%;
+  }
+}
+@media screen and (max-width: 375px){
+  .nav-list{
+      padding-right: 64%;
+  }
+}
+@media screen and (max-width: 320px){
+  .nav-list{
+      padding-right: 57%;
+  }
+}

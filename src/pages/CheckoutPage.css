@@ -1,0 +1,96 @@
+.wrap-check{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.3em;
+    padding-left: 5em;
+    padding-right: 5em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 1em;
+}
+
+.m-wrap{
+    margin: 1em;
+    margin-top: 1.9em;
+    margin-bottom: 2.8em;
+    padding: 1em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    border-radius: 2em;
+    background-color: #92f78b;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.m-icon{
+    color: #008000;
+}
+
+.home-back{
+
+}
+
+.home-back button{
+    border: none;
+    border-radius: 0.5em;
+    background-color: hsl(217, 96%, 91%);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 0.8em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    color: hsl(217, 76%, 67%);
+}
+
+@media screen and (max-width: 926px) {
+    .right ul{
+        display: none;
+    }
+    .right div{
+        display: unset;
+    }
+    #check-1:checked~.container{
+        display: unset;
+    }
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 576px){
+    
+}
+@media screen and (max-width: 497px){
+    .check-box{
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+}
+@media screen and (max-width: 431px){
+    .check-box{
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
+@media screen and (max-width: 395px){
+    .check-box{
+        padding-left: 1.8em;
+        padding-right: 1.8em;
+    }  
+}
+@media screen and (max-width: 375px){
+    .check-box{
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+}
+@media screen and (max-width: 321px){
+    .check-box{
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+    }
+}

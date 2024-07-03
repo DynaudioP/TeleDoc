@@ -1,0 +1,450 @@
+/* Profil Menu */
+.profil{
+    background-color: #F1F1F1;
+}
+.profil-left{
+    margin-left: 16%;
+    margin-top: 20%;
+    margin-right: 3%;
+}
+.profil-menu{
+    border-radius: 10px;
+    padding: 12px 30px;
+    cursor: pointer;
+    transition: .25s;
+}
+.profil-icon{
+    width: 32px;
+    height: 32px;
+    color: #000;
+}
+.profil-menu-title{
+    font-size: 1.25rem;
+    color: #000;
+}
+.horizontal-rule{
+    height: 2px;
+}
+.profil-menu:hover{
+    background-color: #e0e3e7;
+}
+
+/* Profil Saya*/
+.content-wrapper{
+    border-radius: 10px;
+    border: solid #2C26261A;
+}
+.content-header{
+    text-align: center;
+    padding: 48px;
+}
+.kym{
+    margin-top: 12px;
+}
+.list-input{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list-input-width-1{
+    width: 48%;
+}
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    border: solid thin black;
+    border-radius: 5px;
+    margin: 2px 0;
+}
+.input-radio{
+    display: flex;
+    align-items: center;
+    height: 60%;
+}
+.input-radio-value{
+    display: flex;
+    align-items: center;
+}
+.input-form-1{
+    width: 90%;
+}
+.input-form-2{
+    width: 95%;
+    resize: none;
+}
+.input-form-3{
+    width: 85%;
+}
+.input-form-4{
+    width: 100%;
+    height: 60%;
+    border: solid thin black;
+    border-radius: 5px;
+    margin: 2px 0;
+}
+.input-form-1, .input-form-2, .input-form-3{
+    padding: 5px 0;
+    border: transparent;
+}
+.input-label{
+    font-weight: 500;
+}
+input[name='jenis_kelamin']{
+    width: 20px;
+    height: 20px;
+}
+.btn-1, .btn-2{
+    background-color: #6599E8;
+    color: #ffff;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: .4s;
+}
+
+/* Riwayat */
+.riwayat-input{
+    width: 30%;
+}
+
+/* Dokter Fav */
+.no-doctor{
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+.please-find-doctor{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.docfav-name{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.docfav-icon-1{
+    width: 24px;
+    height: 24px;
+}
+.docfav-icon-2{
+    width: 32px;
+    height: 32px;
+}
+.docfav-icon-3{
+    width: 24px;
+    height: 24px;
+    transition: .25s;
+    cursor: pointer;
+}
+.docfav-detail-1{
+    font-size: 1.2rem;
+}
+.docfav-detail-2{
+    font-size: 1rem;
+}
+.docfav-icon-1, .docfav-detail-1{
+    color: #979696;
+}
+.docfav-icon-3:hover{
+    color: #F03E85;
+}
+
+/* Hover */
+.btn-1:hover, .btn-2:hover{
+    color: #6599E8;
+    background-color: #65DBE8;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .profil-menu-title{
+        font-size: 0.9rem;
+    }
+    .profil-icon{
+        width: 28px;
+        height: 28px;
+    }
+    .no-doctor{
+        font-size: 1.8rem;
+    }
+    .please-find-doctor{
+        font-size: 1.3rem;
+    }
+    .doc-photo{
+        width: 135px;
+    }
+    .docfav-name{
+        font-size: 1.1rem;
+    }
+    .docfav-detail-1{
+        font-size: 0.9rem;
+    }
+    .docfav-detail-2{
+        font-size: 0.9rem;
+    }
+    .docfav-icon-1{
+        width: 20px;
+        height: 20px;
+    }
+    .docfav-icon-2{
+        width: 24px;
+        height: 24px;
+    }
+    .btn-2{
+        padding: 4px;
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    input[name='jenis_kelamin']{
+        width: 18px;
+        height: 18px;
+    }
+    .jk{
+        font-size: 0.9rem;
+    }
+    .no-doctor{
+        font-size: 1.7rem;
+    }
+    .please-find-doctor{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .profil-icon{
+        width: 24px;
+        height: 24px;
+    }
+    .profil-rule{
+        width: 50%;
+        margin: auto;
+    }
+    .loh{
+        display: none;
+    }
+    .profil-menu{
+        width: 85px;
+        margin: auto;
+    }
+    .input-form-3{
+        width: 95%;
+    }
+    .riwayat-input{
+        width: 100%;
+    }
+    .no-doctor{
+        font-size: 1.5rem;
+    }
+    .please-find-doctor{
+        font-size: 1rem;
+    }
+    .doc-photo{
+        width: 105px;
+    }
+    .docfav-name{
+        font-size: 0.9rem;
+    }
+    .docfav-detail-1{
+        font-size: 0.8rem;
+    }
+    .docfav-detail-2{
+        font-size: 0.8rem;
+    }
+    .docfav-icon-1{
+        width: 16px;
+        height: 16px;
+    }
+    .docfav-icon-2{
+        width: 20px;
+        height: 20px;
+    }
+    .docfav-icon-3{
+        width: 20px;
+        height: 20px;
+    }
+    .btn-2{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .profil-left{
+        margin-right: 0;
+    }
+    .profil-menu{
+        width: 24px;
+    }
+    .list-input-width-1{
+        width: 100%;
+    }
+    .kym{
+        margin-top: 0;
+    }
+    .inc{
+        margin-top: 12px;
+    }
+    .btn-1{
+        padding: 5px;
+        font-size: 1rem;
+    }
+    .no-doctor{
+        font-size: 1.2rem;
+    }
+    .please-find-doctor{
+        font-size: 0.7rem;
+    }
+    .doc-photo{
+        width: 85px;
+    }
+    .docfav-name{
+        font-size: 0.7rem;
+    }
+    .docfav-detail-1{
+        font-size: 0.55rem;
+    }
+    .docfav-detail-2{
+        font-size: 0.55rem;
+    }
+    .docfav-icon-1{
+        width: 12px;
+        height: 12px;
+    }
+    .docfav-icon-2{
+        width: 16px;
+        height: 16px;
+    }
+    .docfav-icon-3{
+        width: 12px;
+        height: 12px;
+    }
+    .btn-2{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 575px){
+    .profil-menu{
+        margin: unset;
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        padding: 12px 12px;
+    }
+    .profil-icon{
+        width: 36px;
+        height: 36px;
+    }
+    .profil-left{
+        margin: unset;
+    }
+    .profil-rule{
+        display: none;
+    }
+    .list-menu-phone{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .no-doctor{
+        font-size: 1rem;
+    }
+    .please-find-doctor{
+        font-size: 0.7rem;
+    }
+    .doc-photo{
+        width: 130px;
+    }
+    .docfav-name{
+        font-size: 1.1rem;
+    }
+    .docfav-detail-1{
+        font-size: 1rem;
+    }
+    .docfav-detail-2{
+        font-size: 1rem;
+    }
+    .docfav-icon-1{
+        width: 24px;
+        height: 24px;
+    }
+    .docfav-icon-2{
+        width: 24px;
+        height: 24px;
+    }
+    .docfav-icon-3{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .no-doctor{
+        font-size: 0.9rem;
+    }
+    .please-find-doctor{
+        font-size: 0.6rem;
+    }
+    .doc-photo{
+        width: 120px;
+    }
+    .docfav-name{
+        font-size: 0.95rem;
+    }
+    .docfav-detail-1{
+        font-size: 0.8rem;
+    }
+    .docfav-detail-2{
+        font-size: 0.8rem;
+    }
+    .docfav-icon-1{
+        width: 20px;
+        height: 20px;
+    }
+    .docfav-icon-2{
+        width: 20px;
+        height: 20px;
+    }
+    .docfav-icon-3{
+        width: 16px;
+        height: 16px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .profil-menu{
+        width: 48px;
+        height: 48px;
+        padding: 12px 12px;
+    }
+    .profil-icon{
+        width: 24px;
+        height: 24px;
+    }
+    .btn-1{
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+    .no-doctor{
+        font-size: 0.7rem;
+    }
+    .please-find-doctor{
+        font-size: 0.5rem;
+    }
+    .doc-photo{
+        width: 110px;
+    }
+    .docfav-name{
+        font-size: 0.75rem;
+    }
+    .docfav-detail-1{
+        font-size: 0.6rem;
+    }
+    .docfav-detail-2{
+        font-size: 0.6rem;
+    }
+    .docfav-icon-1{
+        width: 16px;
+        height: 16px;
+    }
+    .docfav-icon-2{
+        width: 16px;
+        height: 16px;
+    }
+}
